@@ -1,0 +1,82 @@
+/* styles.css */
+
+/* General styling for the application */
+.root {
+    -fx-font-family: 'Arial';
+    -fx-background-color: #f4f4f4;
+}
+
+/* Styling for labels */
+.label {
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+}
+
+/* Styling for text fields and password fields */
+.text-field, .password-field {
+    -fx-font-size: 14px;
+    -fx-padding: 5px;
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+/* Styling for buttons */
+.button {
+    -fx-font-size: 14px;
+    -fx-text-fill: #ffffff;
+    -fx-background-color: #0078d7;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 10px 20px;
+}
+
+.button:hover {
+    -fx-background-color: #005bb5;
+}
+
+.button:pressed {
+    -fx-background-color: #004080;
+}
+
+/* Styling for the login grid */
+.grid-pane {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+/* Styling for the dashboard grid */
+.dashboard-grid {
+    -fx-background-color: #ffffff;
+    -fx-padding: 20px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 10, 0, 0, 0);
+}
+
+/* Styling for alerts */
+.dialog-pane {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+}
+
+.dialog-pane .label {
+    -fx-text-fill: #333333;
+}
+
+.dialog-pane .button {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: #ffffff;
+}
+
+.dialog-pane .button:hover {
+    -fx-background-color: #005bb5;
+}
